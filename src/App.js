@@ -4,8 +4,11 @@ import Table from "./components/Table/Table.js";
 
 function App() {
   return (
+    <div>
     <Jumbotron />
-    <Table></Table>
+    <Table />
+    </div>
+    
   );
 }
 
