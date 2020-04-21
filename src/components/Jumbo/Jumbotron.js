@@ -1,5 +1,4 @@
 import React from "react";
-import Container from "../Container/index.js";
 import {Row, Col} from "react-bootstrap";
 import Title from "../Title/index.js";
 import Button from "react-bootstrap/Button";
@@ -9,7 +8,6 @@ import "./style.css";
 
 const Jumbotron = () => {
   return (
-    <Container>
     <Row>
         <Col className="text-white text-center py-5 px-4 my-5" style={{ backgroundImage: `url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg)` }}>
           <Col className="py-5">
@@ -26,7 +24,6 @@ const Jumbotron = () => {
           </Col>
         </Col>
     </Row>
-    </Container>
   )
 }
 
