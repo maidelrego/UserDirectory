@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import Jumbotron from "./components/Jumbo/Jumbotron.js";
-import Directory from "./components/Table/Directory.js";
 import Container from "./components/Container/index.js";
 import Row from "react-bootstrap/Row";
 import employees from "./components/employee/employee.json"
+import THead from "./components/Table/THead.js";
+import Col from "react-bootstrap/Col";
+import TBody from "./components/Table/TBody.js";
+import Table from "react-bootstrap/Table"
 
 class App extends Component {
   
@@ -23,18 +26,21 @@ class App extends Component {
     return (
       <Container>
         <Row>
-        <div>
-        <Jumbotron />
-        {this.state.employees.map(employees => (
-          <Directory
-            name={employees.name}
-            image={employees.image}
-            phone={employees.phone}
-            email={employees.email}
-            DOB={employees.DOB}
-          />
-        ))}
-        </div>
+          <Col>
+            <Jumbotron />
+            <Table responsive hover>
+              <THead />
+              {this.state.employees.map(employees => (
+                <TBody
+                  image={employees.image}
+                  name={employees.name}
+                  phone={employees.phone}
+                  email={employees.email}
+                  DOB={employees.DOB}
+                />
+              ))}
+            </Table>
+          </Col>
         </Row>
       </Container>
     );
