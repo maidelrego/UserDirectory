@@ -3,96 +3,96 @@
     "id": 1,
     "name": "Aldo Huerta",
     "image": "https://s24858.pcdn.co/wp-content/uploads/2018/09/Steve-Right-Square-200x200px-72dpi.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "203-456-9807",
+    "email": "aldo.huerta@email.com",
+    "DOB": "03-15-1965"
   },
   {
     "id": 2,
     "name": "Georgia Redmon",
     "image": "https://www.lse.ac.uk/international-relations/assets/images/people-pages/PSS/schultz-amanda-Cropped-200x200.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "913-789-0803",
+    "email": "georgia.redmon@email.com",
+    "DOB": "08-29-1972"
   },
   {
     "id": 3,
     "name": "Daryl Munsey",
     "image": "https://s24858.pcdn.co/wp-content/uploads/2018/09/Alan-Right-Square-200x200px-72dpi.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "816-432-8903",
+    "email": "daryl.munsey@email.com",
+    "DOB": "12-01-1955"
   },
   {
     "id": 4,
     "name": "Adelaida Conforti",
     "image": "https://www.lse.ac.uk/health-policy/assets/images/HP-images/profile-images-200-X-200/phd/Anna-Maria-1.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "245-145-5347",
+    "email": "adelaida.conforti@email.com",
+    "DOB": "07-23-1985"
   },
   {
     "id": 5,
     "name": "Sebastian Lawry",
     "image": "https://www.lse.ac.uk/european-institute/Assets/Images/Staff/Academic-staff/basedow-robert-2-Cropped-200x200.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "264-459-9087",
+    "email": "sebastian.lawry@email.com",
+    "DOB": "07-30-1990"
   },
   {
     "id": 6,
     "name": "Antonette Charlesworth",
     "image": "https://www.uclahealth.org/pictures/PNRS/aashini-master.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "203-129-5081",
+    "email": "antonette.charlesworth@email.com",
+    "DOB": "01-20-1993"
   },
   {
     "id": 7,
     "name": "Walter Arend",
     "image": "https://nflpaweb.blob.core.windows.net/media/Default/NFLPA/Executive%20Committee%20Headshots/MalcolmJenkins.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "347-167-4789",
+    "email": "walter.arend@email.com",
+    "DOB": "11-30-1985"
   },
   {
     "id": 8,
     "name": "Elnora Jimmerson",
     "image": "https://s24858.pcdn.co/wp-content/uploads/2019/07/Samitha-Moodley.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "895-434-1253",
+    "email": "elnora.jimmerson@email.com",
+    "DOB": "04-15-1980"
   },
   {
     "id": 9,
     "name": "Macie Heredia",
     "image": "https://photo.sydex.net/177145336.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "121-322-5555",
+    "email": "macie.heredia@email.com",
+    "DOB": "04-08-1987"
   },
   {
     "id": 10,
     "name": "Len Espinoza",
     "image": "https://www.elpaso.org/client-assets/images/wib/profiles/deborah-brown.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "203-332-5255",
+    "email": "len.espinoza@email.com",
+    "DOB": "01-12-1982"
   },
   {
     "id": 11,
     "name": "Hubert Whitton",
     "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://s3.amazonaws.com/arc-authors/washpost/80dce63a-89fb-4312-a90a-5503aeaee4d8.png&w=200&h=200&t=20191113b",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "913-222-6423",
+    "email": "hubert.whitton@email.com",
+    "DOB": "01-10-1982"
   },
   {
     "id": 12,
     "name": "Elsie Clayson",
     "image": "https://www.gammaphibeta.org/admin/getattachment/8b27a232-b11f-49ce-83ed-c90663870ec8/gammaphibetafmcboardcrissycarlisle.jpg",
-    "phone": "Fry Cook",
-    "email": "A Pineapple Under the Sea",
-    "DOB": "A Pineapple Under the Sea"
+    "phone": "913-763-0963",
+    "email": "elsie.clayson@email.com",
+    "DOB": "01-21-1988"
   }
 ]

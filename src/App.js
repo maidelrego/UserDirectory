@@ -7,27 +7,26 @@ import THead from "./components/Table/THead.js";
 import Col from "react-bootstrap/Col";
 import TBody from "./components/Table/TBody.js";
 import Table from "react-bootstrap/Table"
+import Button from "react-bootstrap/Button"
 
 class App extends Component {
   
   state = {
     employees
   };
+  
+  filterByName = filteredName => {
+    this.state.employees.filter(filteredName.includes('J')).map(filteredName => (
+    <td>{filteredName}</td>
+    ))}
 
-  // removeFriend = id => {
-  //   // Filter this.state.friends for friends with an id not equal to the id being removed
-  //   const friends = this.state.friends.filter(friend => friend.id !== id);
-  //   // Set this.state.friends equal to the new friends array
-  //   this.setState({ friends });
-  // };
-
-  // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
       <Container>
         <Row>
           <Col>
             <Jumbotron />
+            <Button onClick={this.filterByName}>Filter</Button>
             <Table responsive hover>
               <THead />
               {this.state.employees.map(employees => (
@@ -38,8 +37,11 @@ class App extends Component {
                   email={employees.email}
                   DOB={employees.DOB}
                 />
+                
               ))}
             </Table>
+            <hr />
+            
           </Col>
         </Row>
       </Container>

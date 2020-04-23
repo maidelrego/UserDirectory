@@ -9,7 +9,7 @@ const TBody = (props) => {
       <td><img alt={props.name} src={props.image} /></td>
       <td>{props.name}</td>
       <td>{props.phone}</td>
-      <td>{props.email}</td>
+      <td><a href = "justanexample">{props.email}</a></td>
       <td>{props.DOB}</td>
     </tr>
     </tbody>
