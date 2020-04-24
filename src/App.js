@@ -12,13 +12,13 @@ import Button from "react-bootstrap/Button"
 class App extends Component {
   
   state = {
-    employees
+    employees: employees,
+    displayEmployees: employees
   };
   
-  filterByName = filteredName => {
-    this.state.employees.filter(filteredName.includes('J')).map(filteredName => (
-    <td>{filteredName}</td>
-    ))}
+  filterByName = event => {
+    this.setState({ ...this.state, displayEmployees: this.state.employees.filter(entry => entry.name.indexOf('J') !== -1) })
+  }
 
   render() {
     return (
@@ -29,7 +29,7 @@ class App extends Component {
             <Button onClick={this.filterByName}>Filter</Button>
             <Table responsive hover>
               <THead />
-              {this.state.employees.map(employees => (
+              {this.state.displayEmployees.map(employees => (
                 <TBody
                   image={employees.image}
                   name={employees.name}
@@ -37,11 +37,9 @@ class App extends Component {
                   email={employees.email}
                   DOB={employees.DOB}
                 />
-                
               ))}
             </Table>
             <hr />
-            
           </Col>
         </Row>
       </Container>

@@ -17,7 +17,7 @@ const Jumbotron = () => {
             </p>
           <Col md={{ span: 6, offset: 3 }}>
             <InputGroup className="mb-3">
-              <FormControl id="searchBar" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <FormControl id="searchBar" placeholder=""/>
               <InputGroup.Append>
                 <Button variant="outline-secondary">Search</Button>
               </InputGroup.Append>
