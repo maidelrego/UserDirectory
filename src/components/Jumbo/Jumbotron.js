@@ -8,7 +8,7 @@ import FormControl from "react-bootstrap/FormControl";
 import THead from "../Table/THead";
 import TBody from "../Table/TBody";
 import Table from "react-bootstrap/Table"
-import "./style.css";
+
 
 class Jumbotron extends Component {
 
