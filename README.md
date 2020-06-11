@@ -10,4 +10,4 @@ As a user, You will be able to view the entire employee directory at once and ha
 
 Screenshots: 
 
-![image](https://github.com/maidelrego/Code_Quiz/blob/master/screenshots/Capture.PNG)
+![image](https://github.com/maidelrego/UserDirectory/blob/master/src/screenshots/Capture.PNG)
