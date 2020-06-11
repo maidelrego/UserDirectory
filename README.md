@@ -7,3 +7,7 @@ As employee or manager would benefit greatly from being able to view non-sensiti
 As a user, You will be able to view the entire employee directory at once and have quick access to their information.
 
 ![](gif.gif)
+
+Screenshots: 
+
+![image](https://github.com/maidelrego/Code_Quiz/blob/master/screenshots/Capture.PNG)
